@@ -71,25 +71,6 @@ class Artist {
   }
 }
 
-const kanye = new Artist('Kanye', 'West', 'Monster')
-kanye.firstName // 'Kanye'
-kanye.lastName  // 'West'
-kanye.lastName = 'Kardashian-West'
-kanye.lastName // 'Kardashian-West'
-
-```
-
-## Example 5
-
-```javascript
-class Artist {
-  constructor(firstName, lastName, bestSong){
-    this.firstName = firstName
-    this.lastName  = lastName
-    this.bestSong  = bestSong
-  }
-}
-
 const kanye = new Artist('Monster')
 kanye.firstName // 'Monster'
 kanye.lastName  // undefined
@@ -97,7 +78,7 @@ kanye.bestSong  // undefined
 
 ```
 
-## Example 6
+## Example 5
 
 ```javascript
 class Artist {
