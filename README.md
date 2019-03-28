@@ -34,6 +34,7 @@ class Artist {
 }
 
 const kanye = new Artist
+kanye // Artist {}
 kanye.bestSong // undefined
 kanye.bestSong = 'Gone'
 kanye.bestSong // 'Gone'
