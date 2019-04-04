@@ -2,8 +2,11 @@
 
 ## Objectives
 
-* Practice reading and reasoning about code
-* Discuss events with out
+* Identify object literals in JavaScript
+* Use dot notation to access values in an object
+* Explain what the `new` keyword does
+* Implement and instantiate a class with a constructor method which accepts arguments
+* Set instance properties from initialization using the constructor
 
 ## Exercise
 
